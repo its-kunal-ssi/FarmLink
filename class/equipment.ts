@@ -20,8 +20,6 @@ export class Equipment {
     addDescription({ description }: { description: Equipment['description'] }) {
         this.description = description
     }
-
-
 }
 
 let v: Equipment["price"] = { symbol: "INR", value: 555 }
